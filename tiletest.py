@@ -16,8 +16,6 @@ def move(x, y):
         return x, y
 
 def available_move(x, y):
-    if x == 1 and y == 1:
-        return 'You can travel: (N)orth.'
     if x == 1 and y == 2:
         return 'You can travel: (N)orth or (E)ast or (S)outh.'
     if x == 1 and y == 3:
